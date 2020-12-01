@@ -1254,6 +1254,7 @@ declare namespace Deno {
      * Requires `allow-read` permission.
      */
     caFile?: string;
+    ca?: string;
   }
 
   /** **UNSTABLE**: New API, yet to be vetted.
